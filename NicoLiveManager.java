@@ -114,14 +114,9 @@ public enum NicoLiveManager {
 	//@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws IOException{
 		//ニコニコ動画にログインした状態でCookieからuser_sessionをとってくる
-		String mail = "kazunori.yamada.7i@stu.hosei.ac.jp";
-		String pass = "studyArchitect75";
-		
-		//String mail = "studybox.sharingtools@gmail.com";
-		//String pass = "nikoniko";
 
-		//String mail = JOptionPane.showInputDialog("mail");
-		//String pass = JOptionPane.showInputDialog("password");
+		String mail = JOptionPane.showInputDialog("mail");
+		String pass = JOptionPane.showInputDialog("password");
 		
 		String lv = JOptionPane.showInputDialog("放送URL");
 		
